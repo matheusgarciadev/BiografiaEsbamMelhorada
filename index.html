@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biografia de Isaac Newton</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+    <p>Total de visitantes: <span id="contador">0</span></p>
+
+    <script>
+
+
+        let visitantes = localStorage.getItem('visitantes');
+
+        if (!visitantes) {
+            visitantes = 0;
+        }
+
+        visitantes = parseInt(visitantes);
+        document.getElementById('contador').innerText = visitantes;
+        
+        visitantes++;
+
+    
+        localStorage.setItem('visitantes', visitantes);
+    </script>
+
+
+<body>
+    <div class="container">
+        <img class="imagem" alt="" src="https://s2.static.brasilescola.uol.com.br/img/2019/12/isaac-newton.jpg" />
+
+        <div class="conteudo">
+            <h1><strong>Uma Vida de Genialidade e Descobertas</strong></h1>
+            <p class="texto">Um dos maiores gênios da história da ciência, nasceu no dia 25 de dezembro de 1642, em Woolsthorpe, uma pequena aldeia na Inglaterra. Sua vida extraordinária e contribuições revolucionárias ao campo da matemática, física e astronomia moldaram o curso do conhecimento humano e ainda ecoam em nossa compreensão do universo. Newton viveu em uma época tumultuada, marcada por conflitos políticos e revoluções científicas, conhecida como a "Era da Revolução Científica". Enquanto a Europa se transformava rapidamente, Newton embarcou em uma jornada de descobertas científicas que o consagraria como um dos principais arquitetos dessa era de transformação. Sua importância reside não apenas em suas brilhantes realizações, mas também na forma como ele as alcançou. Através de meticulosos estudos e investigações, Newton formulou as três leis do movimento, que estabeleceram os fundamentos da mecânica clássica. Além disso, sua teoria da gravitação universal explicou o comportamento dos corpos celestes e unificou os domínios da Terra e do espaço. Newton também fez incursões notáveis na matemática, desenvolvendo o cálculo em paralelo com Gottfried Wilhelm Leibniz, criando uma ferramenta essencial para a física moderna e a engenharia. Sua influência transcendeu seu tempo e seu legado perdura até hoje. Suas obras, como o monumental "Philosophiæ Naturalis Principia Mathematica" e "Opticks," são consideradas pedras angulares da literatura científica. Seu método científico rigoroso e sua paixão pela busca do conhecimento continuam a inspirar gerações de cientistas. Ao explorar a vida e as realizações de Isaac Newton, descobrimos um homem cujo intelecto excepcional iluminou os mistérios do universo, lançando as bases para a ciência moderna e desbravando um caminho que todos os que buscam compreender o cosmos ainda trilham. Sua história é um testemunho do poder da curiosidade, perseverança e dedicação à exploração da verdade.
+            </p>
+        </div>
+    </div>
+
+    <div class="botao">
+        <a href="segunda.html"><button class="btn">Juventude e Educação de Isaac Newton</button></a>
+        <a href="terceira.html"><button class="btn">Período de Descobertas Científicas de Isaac Newton</button></a>
+    </div>
+
+    <script src="visitante.js"></script>
+</body>
+
+</html>

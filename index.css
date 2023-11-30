@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: rgba(17, 0, 255, 0.22);
+    background-image: url("https://img.freepik.com/vetores-gratis/circulo-azul-abstrato-na-tecnologia-de-fundo-preto_1142-12714.jpg?w=740&t=st=1695609241~exp=1695609841~hmac=c0b06c73cc296dc58ec7e2d1174ff3dcb4698b3f303a13a88b352e2e9e2806dd");
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    margin: 20px;
+}
+
+img {
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+h1 {
+    margin: left 440px;
+    text-align: center;
+    outline: auto;
+    background-color: #000;
+    border-radius: 5px;
+}
+
+h4 {
+    text-align: justify;
+}
+
+span {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    border-style: solid;
+    border-width: 2px;
+    float: left;
+    height: 300px;
+    margin: 25px;
+    width: 290px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.imagem {
+    max-width: 350px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.texto {
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.935);
+    border-radius: 5px;
+}
+
+.botao {
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    height: 30px;
+    background-color: #1d2834;
+}
+
+.btn {
+    width: 130px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 10px;
+    border-radius: 500px;
+    color: green;
+    transition: all 0.6s ease-in 0s;
+    box-shadow: inset 9px 9px 1px #000;
+}
+
+.btn:hover {
+    background: transparent;
+    color: aqua;
+    transform: scale(1.0) rotate(360deg);
+    box-shadow: 0 0 30px rgba(0, 255, 203, .64);
+    cursor: grab;
+    border: 10px solid;
+}
+

@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-image: url("https://img.freepik.com/vetores-gratis/vetor-de-papel-de-parede-movel-com-padrao-geometrico-azul-marinho_53876-167963.jpg?w=360&t=st=1695613396~exp=1695613996~hmac=d800eacc3fc76af57fc7b61b0197b0f715593924f41e98e771e92788b110b50a");
+}
+
+p {
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.385);
+    color: white;
+    width: auto;
+}
+
+img {
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+strong {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    outline: auto;
+}
+
+h1 {
+    margin: left 440px; 
+    text-align: center;
+    height: 0px;
+    font-size: 25px;
+}
+
+span {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.imagem {
+    border-style: solid;
+    border-width: 2px;
+    float: left;
+    height: 300px;
+    margin: 25px;
+    width: 290px;
+    max-width: 350px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.texto1 {
+    background-color: rgba(0, 255, 255, 0.124);
+}
+
+p {
+    flex-grow: 1;
+    text-align: justify;
+}
+
+.botao {
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    height: 30px;
+    background-color: #1d2834;
+}
+
+.btn {
+    width: 130px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 10px;
+    border-radius: 500px;
+    color: green;
+    transition: all 0.6s ease-in 0s;
+    box-shadow: inset 9 9 1px #000;
+}
+
+.btn:hover {
+    background: transparent;
+    color: aqua;
+    transform: scale(1.0) rotate(360deg);
+    box-shadow: 0 0 30px rgba(0, 255, 203, .64);
+    cursor: grab;
+    border: 10px solid;
+}
